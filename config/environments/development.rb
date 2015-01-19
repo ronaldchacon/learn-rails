@@ -36,7 +36,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.action_mailer.smtp_settings ={
-    address: "smtp.google.com",
+    address: "smtp.gmail.com",
     port: 587,
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
