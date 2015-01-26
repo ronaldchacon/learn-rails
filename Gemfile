@@ -29,3 +29,7 @@ group :production do
   gem 'thin'
   gem 'rails_12factor'
 end
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
+end
